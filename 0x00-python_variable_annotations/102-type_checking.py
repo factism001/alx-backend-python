@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
+
 from typing import List, Tuple, Iterable
+
 
 def zoom_array(lst: Iterable, factor: int = 2) -> List:
     zoomed_in: List = [
