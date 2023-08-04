@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Returns the floor of a float."""
 
-from math import floor
+import math
 
 
 def floor(n: float) -> int:
@@ -14,4 +14,4 @@ def floor(n: float) -> int:
         The floor of n as an integer
     """
 
-    return floor(n)
+    return math.floor(n)
