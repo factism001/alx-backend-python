@@ -5,12 +5,7 @@ This module provides a function to add two float values together
 and return the result as a float.
 """
 
-from typing import TypeVar Union
-
-FloatNumber = TypeVar('FloatNumber', float, Union[float, int])
-
-
-def add(a: FloatNumber, b: FloatNumber) -> FloatNumber:
+def add(a: float, b: float) -> float:
     """Adds two float values together.
 
     Args:
