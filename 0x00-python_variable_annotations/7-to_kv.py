@@ -7,11 +7,11 @@ squares the numeric value, and returns them in a tuple pair.
 
 from typing import Union, Tuple
 
+
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """Creates a tuple from a string and numeric value.
-    
     Args:
-        k: The key string. 
+        k: The key string.
         v: The numeric value to square.
 
     Returns:
