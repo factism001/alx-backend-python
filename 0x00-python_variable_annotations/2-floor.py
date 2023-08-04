@@ -1,23 +1,17 @@
 #!/usr/bin/env python3
-"""Returns the floor of a float.
+"""Returns the floor of a float."""
 
-This module provides a function to calculate the floor of a 
-provided float number.
-"""
+from math import floor
 
-from typing import TypeVar
-from math import floor as math_floor
 
-FloatNum = TypeVar('FloatNum', float)
+def floor(n: float) -> int:
+    """Gets the floor of a float.
 
-def floor(n: FloatNum) -> int:
-    """Finds the floor of a float.
-    
     Args:
-       n(FloatNum): The float number to find floor of.
-       
+    n: The float number
+
     Returns:
-       int: The floor of n as an integer.
+        The floor of n as an integer
     """
-    
-    return math_floor(n)
+
+    return floor(n)

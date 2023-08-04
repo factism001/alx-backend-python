@@ -1,22 +1,14 @@
-#!/usr/bin/env python3 
-"""Converts a float to a string.
+#!/usr/bin/env python3
+"""Converts a float to a string."""
 
-This module provides a function to convert a float
-number to its string representation.
-"""
 
-from typing import TypeVar
-
-FloatNum = TypeVar('FloatNum', float)
-
-def to_str(n: FloatNum) -> str:
+def to_str(n: float) -> str:
     """Converts a float to a string.
-    
     Args:
-       n(FloatNum): The float to convert.
-    
+    n: The float number
+
     Returns:
-        str: The string representation of the float.
-    """
+        The string representation of n
+        """
 
     return str(n)
