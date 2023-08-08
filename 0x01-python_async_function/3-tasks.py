@@ -6,7 +6,8 @@ This module defines a regular function for creating an asyncio.Task.
 
 import asyncio
 from asyncio.tasks import Task
-from 0-basic_async_syntax import wait_random
+
+wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 def task_wait_random(max_delay: int) -> Task:
